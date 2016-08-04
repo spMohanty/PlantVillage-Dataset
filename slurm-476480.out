@@ -1,0 +1,347 @@
+STARTING AT Sun Apr 3 02:08:04 CEST 2016
+/ssoft/caffe/2014/gnu/4.8.3/python/caffe/pycaffe.py:13: RuntimeWarning: to-Python converter for boost::shared_ptr<caffe::Net<float> > already registered; second conversion method ignored.
+  from ._caffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, \
+/ssoft/caffe/2014/gnu/4.8.3/python/caffe/pycaffe.py:13: RuntimeWarning: to-Python converter for boost::shared_ptr<caffe::Blob<float> > already registered; second conversion method ignored.
+  from ._caffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, \
+/ssoft/caffe/2014/gnu/4.8.3/python/caffe/pycaffe.py:13: RuntimeWarning: to-Python converter for boost::shared_ptr<caffe::Solver<float> > already registered; second conversion method ignored.
+  from ._caffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, \
+Debug :: 10837 total lines in file
+Info :: 10837 valid lines in file
+Debug :: Category 0 has 100 images.
+Debug :: Category 1 has 111 images.
+Debug :: Category 2 has 35 images.
+Debug :: Category 3 has 376 images.
+Debug :: Category 4 has 316 images.
+Debug :: Category 5 has 85 images.
+Debug :: Category 6 has 154 images.
+Debug :: Category 7 has 102 images.
+Debug :: Category 8 has 218 images.
+Debug :: Category 9 has 181 images.
+Debug :: Category 10 has 243 images.
+Debug :: Category 11 has 252 images.
+Debug :: Category 12 has 256 images.
+Debug :: Category 13 has 236 images.
+Debug :: Category 14 has 96 images.
+Debug :: Category 15 has 1103 images.
+Debug :: Category 16 has 324 images.
+Debug :: Category 17 has 86 images.
+Debug :: Category 18 has 192 images.
+Debug :: Category 19 has 276 images.
+Debug :: Category 20 has 200 images.
+Debug :: Category 21 has 216 images.
+Debug :: Category 22 has 32 images.
+Debug :: Category 23 has 164 images.
+Debug :: Category 24 has 1141 images.
+Debug :: Category 25 has 382 images.
+Debug :: Category 26 has 358 images.
+Debug :: Category 27 has 104 images.
+Debug :: Category 28 has 375 images.
+Debug :: Category 29 has 156 images.
+Debug :: Category 30 has 410 images.
+Debug :: Category 31 has 176 images.
+Debug :: Category 32 has 339 images.
+Debug :: Category 33 has 340 images.
+Debug :: Category 34 has 252 images.
+Debug :: Category 35 has 1076 images.
+Debug :: Category 36 has 75 images.
+Debug :: Category 37 has 299 images.
+Debug :: Processed 200/10837
+Debug :: Doubling LMDB map size to 20MB ...
+Debug :: Processed 500/10837
+Debug :: Processed 700/10837
+Debug :: Doubling LMDB map size to 40MB ...
+Debug :: Processed 1000/10837
+Debug :: Processed 1200/10837
+Debug :: Processed 1500/10837
+Debug :: Doubling LMDB map size to 80MB ...
+Debug :: Processed 1700/10837
+Debug :: Processed 1900/10837
+Debug :: Processed 2100/10837
+Debug :: Processed 2300/10837
+Debug :: Processed 2500/10837
+Debug :: Processed 2700/10837
+Debug :: Processed 3000/10837
+Debug :: Processed 3200/10837
+Debug :: Doubling LMDB map size to 160MB ...
+Debug :: Processed 3400/10837
+Debug :: Processed 3600/10837
+Debug :: Processed 3800/10837
+Debug :: Processed 4000/10837
+Debug :: Processed 4200/10837
+Debug :: Processed 4400/10837
+Debug :: Processed 4600/10837
+Debug :: Processed 4900/10837
+Debug :: Processed 5100/10837
+Debug :: Processed 5300/10837
+Debug :: Processed 5500/10837
+Debug :: Processed 5700/10837
+Debug :: Processed 5900/10837
+Debug :: Processed 6100/10837
+Debug :: Processed 6300/10837
+Debug :: Processed 6500/10837
+Debug :: Doubling LMDB map size to 320MB ...
+Debug :: Processed 6700/10837
+Debug :: Processed 6900/10837
+Debug :: Processed 7100/10837
+Debug :: Processed 7400/10837
+Debug :: Processed 7500/10837
+Debug :: Processed 7700/10837
+Debug :: Processed 8000/10837
+Debug :: Processed 8200/10837
+Debug :: Processed 8400/10837
+Debug :: Processed 8600/10837
+Debug :: Processed 8800/10837
+Debug :: Processed 9000/10837
+Debug :: Processed 9200/10837
+Debug :: Processed 9400/10837
+Debug :: Processed 9600/10837
+Debug :: Processed 9800/10837
+Debug :: Processed 10100/10837
+Debug :: Processed 10300/10837
+Debug :: Processed 10500/10837
+Debug :: Processed 10700/10837
+Debug :: 10837 images loaded
+Info :: 10837 images written to database
+Info :: Mean saved at "lmdb/color-20-80/mean.binaryproto"
+Info :: Database created after 106 seconds.
+/ssoft/caffe/2014/gnu/4.8.3/python/caffe/pycaffe.py:13: RuntimeWarning: to-Python converter for boost::shared_ptr<caffe::Net<float> > already registered; second conversion method ignored.
+  from ._caffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, \
+/ssoft/caffe/2014/gnu/4.8.3/python/caffe/pycaffe.py:13: RuntimeWarning: to-Python converter for boost::shared_ptr<caffe::Blob<float> > already registered; second conversion method ignored.
+  from ._caffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, \
+/ssoft/caffe/2014/gnu/4.8.3/python/caffe/pycaffe.py:13: RuntimeWarning: to-Python converter for boost::shared_ptr<caffe::Solver<float> > already registered; second conversion method ignored.
+  from ._caffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, \
+Debug :: 43468 total lines in file
+Info :: 43468 valid lines in file
+Debug :: Category 0 has 530 images.
+Debug :: Category 1 has 510 images.
+Debug :: Category 2 has 240 images.
+Debug :: Category 3 has 1269 images.
+Debug :: Category 4 has 1186 images.
+Debug :: Category 5 has 967 images.
+Debug :: Category 6 has 700 images.
+Debug :: Category 7 has 411 images.
+Debug :: Category 8 has 974 images.
+Debug :: Category 9 has 804 images.
+Debug :: Category 10 has 919 images.
+Debug :: Category 11 has 928 images.
+Debug :: Category 12 has 1127 images.
+Debug :: Category 13 has 840 images.
+Debug :: Category 14 has 327 images.
+Debug :: Category 15 has 4404 images.
+Debug :: Category 16 has 1973 images.
+Debug :: Category 17 has 274 images.
+Debug :: Category 18 has 805 images.
+Debug :: Category 19 has 1202 images.
+Debug :: Category 20 has 800 images.
+Debug :: Category 21 has 784 images.
+Debug :: Category 22 has 120 images.
+Debug :: Category 23 has 207 images.
+Debug :: Category 24 has 3949 images.
+Debug :: Category 25 has 1453 images.
+Debug :: Category 26 has 751 images.
+Debug :: Category 27 has 352 images.
+Debug :: Category 28 has 1752 images.
+Debug :: Category 29 has 844 images.
+Debug :: Category 30 has 1499 images.
+Debug :: Category 31 has 776 images.
+Debug :: Category 32 has 1432 images.
+Debug :: Category 33 has 1336 images.
+Debug :: Category 34 has 1152 images.
+Debug :: Category 35 has 4281 images.
+Debug :: Category 36 has 298 images.
+Debug :: Category 37 has 1292 images.
+Debug :: Processed 100/43468
+Debug :: Processed 300/43468
+Debug :: Doubling LMDB map size to 20MB ...
+Debug :: Processed 500/43468
+Debug :: Processed 700/43468
+Debug :: Doubling LMDB map size to 40MB ...
+Debug :: Processed 1000/43468
+Debug :: Processed 1200/43468
+Debug :: Processed 1400/43468
+Debug :: Processed 1600/43468
+Debug :: Doubling LMDB map size to 80MB ...
+Debug :: Processed 1800/43468
+Debug :: Processed 2000/43468
+Debug :: Processed 2200/43468
+Debug :: Processed 2400/43468
+Debug :: Processed 2600/43468
+Debug :: Processed 2900/43468
+Debug :: Processed 3100/43468
+Debug :: Processed 3300/43468
+Debug :: Doubling LMDB map size to 160MB ...
+Debug :: Processed 3500/43468
+Debug :: Processed 3700/43468
+Debug :: Processed 3900/43468
+Debug :: Processed 4100/43468
+Debug :: Processed 4400/43468
+Debug :: Processed 4600/43468
+Debug :: Processed 4900/43468
+Debug :: Processed 5200/43468
+Debug :: Processed 5500/43468
+Debug :: Processed 5700/43468
+Debug :: Processed 6000/43468
+Debug :: Processed 6300/43468
+Debug :: Processed 6700/43468
+Debug :: Doubling LMDB map size to 320MB ...
+Debug :: Processed 7100/43468
+Debug :: Processed 7400/43468
+Debug :: Processed 7600/43468
+Debug :: Processed 7800/43468
+Debug :: Processed 8100/43468
+Debug :: Processed 8300/43468
+Debug :: Processed 8500/43468
+Debug :: Processed 8700/43468
+Debug :: Processed 8900/43468
+Debug :: Processed 9100/43468
+Debug :: Processed 9300/43468
+Debug :: Processed 9500/43468
+Debug :: Processed 9700/43468
+Debug :: Processed 10000/43468
+Debug :: Processed 10200/43468
+Debug :: Processed 10400/43468
+Debug :: Processed 10600/43468
+Debug :: Processed 10800/43468
+Debug :: Processed 11000/43468
+Debug :: Processed 11200/43468
+Debug :: Processed 11400/43468
+Debug :: Processed 11600/43468
+Debug :: Processed 11800/43468
+Debug :: Processed 12000/43468
+Debug :: Processed 12200/43468
+Debug :: Processed 12400/43468
+Debug :: Processed 12600/43468
+Debug :: Processed 12900/43468
+Debug :: Processed 13100/43468
+Debug :: Processed 13300/43468
+Debug :: Processed 13500/43468
+Debug :: Doubling LMDB map size to 640MB ...
+Debug :: Processed 13700/43468
+Debug :: Processed 13900/43468
+Debug :: Processed 14100/43468
+Debug :: Processed 14300/43468
+Debug :: Processed 14500/43468
+Debug :: Processed 14700/43468
+Debug :: Processed 14900/43468
+Debug :: Processed 15100/43468
+Debug :: Processed 15400/43468
+Debug :: Processed 15600/43468
+Debug :: Processed 15800/43468
+Debug :: Processed 16000/43468
+Debug :: Processed 16200/43468
+Debug :: Processed 16500/43468
+Debug :: Processed 16700/43468
+Debug :: Processed 16900/43468
+Debug :: Processed 17100/43468
+Debug :: Processed 17400/43468
+Debug :: Processed 17600/43468
+Debug :: Processed 17900/43468
+Debug :: Processed 18100/43468
+Debug :: Processed 18300/43468
+Debug :: Processed 18500/43468
+Debug :: Processed 18700/43468
+Debug :: Processed 18900/43468
+Debug :: Processed 19100/43468
+Debug :: Processed 19300/43468
+Debug :: Processed 19500/43468
+Debug :: Processed 19800/43468
+Debug :: Processed 20000/43468
+Debug :: Processed 20200/43468
+Debug :: Processed 20400/43468
+Debug :: Processed 20600/43468
+Debug :: Processed 20800/43468
+Debug :: Processed 21000/43468
+Debug :: Processed 21200/43468
+Debug :: Processed 21400/43468
+Debug :: Processed 21600/43468
+Debug :: Processed 21800/43468
+Debug :: Processed 22000/43468
+Debug :: Processed 22200/43468
+Debug :: Processed 22400/43468
+Debug :: Processed 22600/43468
+Debug :: Processed 22900/43468
+Debug :: Processed 23000/43468
+Debug :: Processed 23200/43468
+Debug :: Processed 23400/43468
+Debug :: Processed 23700/43468
+Debug :: Processed 23900/43468
+Debug :: Processed 24100/43468
+Debug :: Processed 24400/43468
+Debug :: Processed 24600/43468
+Debug :: Processed 24800/43468
+Debug :: Processed 25100/43468
+Debug :: Processed 25300/43468
+Debug :: Processed 25600/43468
+Debug :: Processed 25800/43468
+Debug :: Processed 26000/43468
+Debug :: Processed 26200/43468
+Debug :: Processed 26500/43468
+Debug :: Processed 26700/43468
+Debug :: Processed 27000/43468
+Debug :: Doubling LMDB map size to 1280MB ...
+Debug :: Processed 27200/43468
+Debug :: Processed 27500/43468
+Debug :: Processed 27700/43468
+Debug :: Processed 27900/43468
+Debug :: Processed 28200/43468
+Debug :: Processed 28400/43468
+Debug :: Processed 28600/43468
+Debug :: Processed 28900/43468
+Debug :: Processed 29100/43468
+Debug :: Processed 29300/43468
+Debug :: Processed 29600/43468
+Debug :: Processed 29800/43468
+Debug :: Processed 30000/43468
+Debug :: Processed 30200/43468
+Debug :: Processed 30500/43468
+Debug :: Processed 30700/43468
+Debug :: Processed 30900/43468
+Debug :: Processed 31200/43468
+Debug :: Processed 31400/43468
+Debug :: Processed 31600/43468
+Debug :: Processed 31900/43468
+Debug :: Processed 32100/43468
+Debug :: Processed 32300/43468
+Debug :: Processed 32500/43468
+Debug :: Processed 32800/43468
+Debug :: Processed 33000/43468
+Debug :: Processed 33300/43468
+Debug :: Processed 33500/43468
+Debug :: Processed 33800/43468
+Debug :: Processed 34000/43468
+Debug :: Processed 34200/43468
+Debug :: Processed 34500/43468
+Debug :: Processed 34700/43468
+Debug :: Processed 34900/43468
+Debug :: Processed 35100/43468
+Debug :: Processed 35300/43468
+Debug :: Processed 35500/43468
+Debug :: Processed 35800/43468
+Debug :: Processed 36000/43468
+Debug :: Processed 36200/43468
+Debug :: Processed 36400/43468
+Debug :: Processed 36600/43468
+Debug :: Processed 36800/43468
+Debug :: Processed 37000/43468
+Debug :: Processed 37200/43468
+Debug :: Processed 37400/43468
+Debug :: Processed 37600/43468
+Debug :: Processed 37800/43468
+Debug :: Processed 38000/43468
+Debug :: Processed 38200/43468
+Debug :: Processed 38400/43468
+Debug :: Processed 38600/43468
+Debug :: Processed 38800/43468
+Debug :: Processed 39200/43468
+Debug :: Processed 39700/43468
+Debug :: Processed 40100/43468
+Debug :: Processed 40500/43468
+Debug :: Processed 41000/43468
+Debug :: Processed 41400/43468
+Debug :: Processed 41800/43468
+Debug :: Processed 42400/43468
+Debug :: Processed 42800/43468
+Debug :: Processed 43200/43468
+Debug :: 43468 images loaded
+Info :: 43468 images written to database
+Info :: Database created after 386 seconds.

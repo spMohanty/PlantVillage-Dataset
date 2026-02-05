@@ -1,21 +1,51 @@
 # PlantVillage Dataset
+
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/mohanty/PlantVillage)
+[![Paper](https://img.shields.io/badge/Paper-Read-green)](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2016.01419/full)
+
 ![PlantVillage Dataset Sample](generated_for_paper/plantvillage.jpg)
 
 The **PlantVillage Dataset** is an open access repository of **54,306 images** of healthy and diseased plant leaves, collected to advance research in automated plant disease diagnosis. It covers **14 crop species** and **26 diseases**, making it one of the largest publicly available datasets for computer vision in agriculture.
 
 This dataset was introduced in the paper [**"Using Deep Learning for Image-Based Plant Disease Detection"**](https://public-pages-files-2025.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2016.01419/pdf) by Mohanty et al. (2016). The goal of this work is to enable the development of smartphone-based disease diagnosis systems to help farmers worldwide safeguard their yields.
 
-## Dataset Structure
+## **Recommended: Usage via Hugging Face**
+
+The easiest way to use this dataset is via the [Hugging Face Hub](https://huggingface.co/mohanty/PlantVillage).
+
+**Installation:**
+```bash
+pip install datasets
+```
+
+**Usage:**
+It provides pre-defined **80/20 train/test splits** that strictly respect the leaf grouping logic to prevent data leakage.
+```python
+from datasets import load_dataset
+
+# Load the dataset (default: color images)
+dataset = load_dataset("mohanty/PlantVillage", "color")
+```
+
+For more details on configurations (grayscale, segmented) and advanced splitting, see the [Hugging Face Model Card](https://huggingface.co/mohanty/PlantVillage).
+
+---
+
+## Repository Structure
 
 The repository is organized as follows:
 
--   `raw/`: Contains the raw image data, categorized into versions:
-    -   `color/`: Original RGB images.
-    -   `grayscale/`: Grayscale versions of the raw images.
-    -   `segmented/`: RGB images with just the leaf segmented and color corrected.
--   `scripts/`: Contains shell scripts for data generation and processing (e.g., `generate_data_*.sh`).
--   `logs/`: Archives of SLURM job logs from previous data generation runs.
--   `create_db.py` & other Python scripts: Core scripts for creating LMDB/HDF5 databases from the images.
+```text
+.
+├── raw/                  # Raw image data
+│   ├── color/            # Original RGB images
+│   ├── grayscale/        # Grayscale versions
+│   └── segmented/        # Segmented images
+├── leaf_grouping/        # Metadata for leaf grouping
+├── scripts/              # Data generation scripts
+├── plant_village.py      # Hugging Face dataset loader
+└── README.md
+```
 
 ## Usage
 
@@ -51,5 +81,8 @@ year={2016},
 month={Sep}} 
 ```
 
-## Contact
-In case of any confusion, please contact `sharada.mohanty@epfl.ch`.
+## Author
+
+Sharada Mohanty <sharada.mohanty@epfl.ch>  
+Marcel Salathé <Marcel.Salathe@epfl.ch>  
+**Digital Epidemiology Lab, EPFL**

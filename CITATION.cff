@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+- family-names: "Mohanty"
+  given-names: "Sharada P."
+- family-names: "Hughes"
+  given-names: "David P."
+- family-names: "Salathé"
+  given-names: "Marcel"
+title: "Using deep learning for image-based plant disease detection"
+version: 1.0.0
+date-released: 2016-09-01
+url: "https://github.com/spMohanty/PlantVillage-Dataset"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Mohanty"
+    given-names: "Sharada P."
+  - family-names: "Hughes"
+    given-names: "David P."
+  - family-names: "Salathé"
+    given-names: "Marcel"
+  doi: "10.3389/fpls.2016.01419"
+  journal: "Frontiers in Plant Science"
+  title: "Using deep learning for image-based plant disease detection"
+  volume: 7
+  year: 2016

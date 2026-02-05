@@ -1,6 +1,6 @@
 # PlantVillage Dataset
 
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/mohanty/PlantVillage)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/mohanty/PlantVillage)
 [![Paper](https://img.shields.io/badge/Paper-Read-green)](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2016.01419/full)
 
 ![PlantVillage Dataset Sample](generated_for_paper/plantvillage.jpg)
@@ -11,7 +11,7 @@ This dataset was introduced in the paper [**"Using Deep Learning for Image-Based
 
 ## **Recommended: Usage via Hugging Face**
 
-The easiest way to use this dataset is via the [Hugging Face Hub](https://huggingface.co/mohanty/PlantVillage).
+The easiest way to use this dataset is via the [Hugging Face Hub](https://huggingface.co/datasets/mohanty/PlantVillage).
 
 **Installation:**
 ```bash
@@ -27,7 +27,7 @@ from datasets import load_dataset
 dataset = load_dataset("mohanty/PlantVillage", "color")
 ```
 
-For more details on configurations (grayscale, segmented) and advanced splitting, see the [Hugging Face Model Card](https://huggingface.co/mohanty/PlantVillage).
+For more details on configurations (grayscale, segmented) and advanced splitting, see the [Hugging Face Model Card](https://huggingface.co/datasets/mohanty/PlantVillage).
 
 ---
 
@@ -56,6 +56,19 @@ With [git](https://git-scm.com/downloads) installed:
 ```bash
 git clone https://github.com/spMohanty/PlantVillage-Dataset
 cd PlantVillage-Dataset
+```
+
+### Dataset Upload (Maintenance)
+
+To update the dataset on Hugging Face (e.g., after modifying metadata or adding images), use the provided script. This script handles zipping the data, uploading files, and updating the README.
+
+**Prerequisites:**
+1.  Install `huggingface_hub` (`pip install huggingface_hub`).
+2.  Login via CLI: `huggingface-cli login`.
+
+**Run:**
+```bash
+python3 scripts/upload_to_hf.py
 ```
 
 ### Data Generation

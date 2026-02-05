@@ -1,4 +1,5 @@
 # PlantVillage Dataset
+![PlantVillage Dataset Sample](generated_for_paper/plantvillage.jpg)
 
 The **PlantVillage Dataset** is an open access repository of **54,306 images** of healthy and diseased plant leaves, collected to advance research in automated plant disease diagnosis. It covers **14 crop species** and **26 diseases**, making it one of the largest publicly available datasets for computer vision in agriculture.
 
